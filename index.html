@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>DevJane Portfolio Website</title>
+        <title>Michael's Portfolio Website</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
         
@@ -20,10 +20,10 @@
             </button>
             <nav class="nav">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>                 
                     <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="#internships" class="nav__link">Internship Experience</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">My Projects</a></li>
                 </ul>
             </nav>
         </header>
@@ -37,7 +37,8 @@
             <img src="img/headshot.jpg" alt="a picture of Michael smiling" class="intro__img">
         </section>
         
-        <!--Internship Experiences-->
+
+
         
         <!-- About me -->
         <section class="about-me" id="about">
@@ -49,13 +50,40 @@
                <p> I am interested in machine learning and neural networks.</p>
            </div>
            
-           <img src="img/sideshot.png" alt="Jane leaning against a bus" class="about-me__img">
+           <img src="img/sideshot.png" alt="Side shot of me" class="about-me__img">
         </section>
-        
-        <!-- My Work -->
-        <section class="my-work" id="work">
-            <h2 class="section__title section__title--work">My work</h2>
-            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <!--Internship Experiences-->
+        <section class="internship-experience" id="internships">
+            <h2 class="section_title">Internship Experience</h2>
+                <table id="internshipstbl">
+                    <tr id="ignisRow" class="internRow">
+                        <td class="logoCol"><img id=ignis-logo" src = "img/ignis.png"></td>
+                        <td class="jobCol">Embedded Software Engineer | Ignis Innovations</td>
+                        <td class="datesCol">Jan 2020 to Mar 2020</td>
+                    </tr>
+                    <tr id="atsRow" class="internRow">
+                        <td class="logoCol"><img id=ats-logo" src = "img/ats.png"></td>
+                        <td class="jobCol">Systems Designer | ATS Automation</td>
+                        <td class="datesCol">May 2019 to Aug 2019</td>
+                    </tr>
+                    <tr id="daltecRow" class="internRow">
+                        <td class="logoCol"><img id=fan-logo" src = "img/fan.png"></td>
+                        <td class="jobCol">Product Designer | Daltec Fans</td>
+                        <td class="datesCol">Sep 2018 to Dec 2018</td>
+                    </tr>
+                    <tr id="waterlooRow" class="internRow">
+                        <td class="logoCol"><img id=waterloo-logo" src = "img/waterloo.png"></td>
+                        <td class="jobCol">Junior Web Developer | University of Waterloo</td>
+                        <td class="datesCol">Jan 2018 to Apr 2018</td>
+                    </tr>
+        </section>
+
+
+        <!-- My Projects -->
+        <section class="my-projects" id="projects">
+            <h2 class="section__title section__title--projects">My Projects</h2>
+            <p class="section__subtitle section__subtitle--projects">Projects I've completed</p>
             
             <div class="portfolio">
                 <!-- Portfolio item 01 -->

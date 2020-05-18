@@ -127,7 +127,7 @@ h3 { font-size: var(--fs-h3) }
     margin-bottom: 1em;
 }
 
-.section__subtitle--work {
+.section__subtitle--projects {
     color: var(--clr-accent);
     font-weight: var(--fw-bold);
     margin-bottom: 2em;
@@ -332,9 +332,16 @@ header {
     }
 }
 
-/* My Work */
+/* Internship experience */
+.experienceRow:hover{
+    background-color: #42ecf5;
+    cursor: pointer;
+}
 
-.my-work {
+
+/* My projects */
+
+.my-projects {
     background-color: var(--clr-dark);
     color: var(--clr-light);
     text-align: center;    
