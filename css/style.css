@@ -308,53 +308,73 @@ header {
         width: calc(100% + 1.5em);*/
     }
 }
+#internships{
+    margin: 2.5% 10% 2.5% 10%;
+	width: 80%;
+
+	display: table;
+}
+.my-internships{
+    width: 100%;
+    border-collapse: collapse;
+    border-top: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	height: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
 
 
+
+.logoCol {
+	width: 20%;
+	height: 100%;
+	vertical-align: middle;
+
+	border-left: 1px solid #dddddd;
+	text-align: center;
+}
+
+#ignis-logo {
+	width: 40%;
+}
+
+#ats-logo {
+	width: 35%;
+	padding: 2% 0 2% 0;
+}
+
+#fan-logo {
+	width: 30%;
+	padding: 0;
+}
+
+#waterloo-logo {
+	width: 35%;
+}
+
+.jobCol {
+	font-family: var(--ff-primary);
+	font-weight: bold;
+	font-size: 15pt;
+	width: 50%;
+}
+
+.datesCol {
+	text-align: right;
+	border-right: 1px solid #dddddd;
+
+	font-family: var(--ff-primary);
+	font-weight: bold;
+	font-size: 15pt;
+	text-align: center;
+	width: 30%;
+}
 
 /* Internship experience */
-.my-services {
-    background-color: var(--clr-dark);
-    background-size: cover;
-    /* background-blend-mode: multiply; */
-    color: var(--clr-light);
-    text-align: center;
-}
-
-.section__title--services {
-    color: var(--clr-accent);
-    position: relative;
-}
-
-.section__title--services::after {
-    content: '';
-    display: block;
-    width: 2em;
-    height: 1px;
-    margin: 0.5em auto 1em;
-    background: var(--clr-light);
-    opacity: 0.25;
-}
-
-.services {
-    margin-bottom: 4em;
-}
-
-.service {
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-@media (min-width: 800px) {
-    .services {
-        display: flex;
-        max-width: 1000px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .service + .service {
-        margin-left: 2em;
-    }
+.experienceRow:hover {
+	background-color: #e5e4e3;
+	cursor: pointer;
 }
 
 
