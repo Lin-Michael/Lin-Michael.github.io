@@ -6,12 +6,13 @@
         <title>Michael's Portfolio Website</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-        
-        <!-- Update these with your own fonts -->
+
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
         
         <link rel="stylesheet" href="css/style.css">
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/scroll.js"></script>
+        
     </head>
     <body>
         <header>
@@ -21,7 +22,6 @@
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>                 
-                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
                     <li class="nav__item"><a href="#internships" class="nav__link">Internship Experience</a></li>
                     <li class="nav__item"><a href="#projects" class="nav__link">My Projects</a></li>
                 </ul>
@@ -29,31 +29,53 @@
         </header>
         
         <!-- Introduction -->
-        <section class="intro" id="home">
-            <h1 class="section__title section__title--intro">
-                Hi, I am <strong>Michael Lin</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro">Mechatronics Engineering Student</p>
-            <img src="img/headshot.jpg" alt="a picture of Michael smiling" class="intro__img">
-        </section>
-        
+        <div class="span_page">
+            <section class="intro" id="home">
+                <h1 class="section__title section__title--intro">
+                    Hi, I am <strong>Michael Lin</strong>
+                </h1>
+                <p class="section__subtitle section__subtitle--intro">Mechatronics Engineering Student | University of Waterloo</p>
+                <img src="img/headshot.jpg" alt="a head shot of Michael" class="intro__img">
+                
+                <div class="iconBts">
+                    <figure class="icon__section">
+                        <i class="fas fa-briefcase intro-icon"></i>
+                        <figcaption>EXPERIENCE</figcaption>
+                    </figure>
+                    <figure class="icon__section">
+                        <i class="fas fa-file-alt intro-icon"></i>
+                        <figcaption>RESUME</figcaption>
+                    </figure>
 
 
-        
-        <!-- About me -->
-        <section class="about-me" id="about">
-           <h2 class="section__title section__title--about">Who I am</h2>
-           <p class="section__subtitle section__subtitle--about">3A Mechatronics Engineering Student</p>
-           
-           <div class="about-me__body">
-               <p>I am an aspiring software developer and engineering student.</p>
-               <p> I am interested in machine learning and neural networks.</p>
-           </div>
-           
-           <img src="img/sideshot.png" alt="Side shot of me" class="about-me__img">
-        </section>
+                </div>
+                
+            </section>
+        </div>
 
         <!--Internship Experiences-->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Design + Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>E-Commerce</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>WordPress</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
         <section class="internship-experience" id="internships">
             <h2 class="section_title">Internship Experience</h2>
                 <table id="internshipstbl">
@@ -113,7 +135,7 @@
         </footer>
         
         
-        <script src="js/index.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
         
     </body>
 </html>
