@@ -14,11 +14,20 @@
         <script type="text/javascript" src="js/scroll.js"></script>
         
     </head>
-    <body>
+    <body onload="resetButton()">
         <header>
             <button class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"></span>
             </button>
+
+            <label class="switch">
+                <input type="checkbox" id="darkMode" class="darkModeToggle" name="checkAddress" onclick="darkMode(this)" />
+                <span class="slider round"></span>
+                <p>Dark Mode</p>
+            </label>
+
+            
+
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>                 
@@ -43,11 +52,10 @@
                         <figcaption>EXPERIENCE</figcaption>
                     </figure>
                     <figure class="icon__section">
-                        <i class="fas fa-file-alt intro-icon"></i>
-                        <figcaption>RESUME</figcaption>
+                        <a href="img/3Aresume4.pdf" target="_blank" class="resume"><i class="fas fa-file-alt intro-icon"></i></a>
+                        <a href="img/3Aresume4.pdf" target="_blank" class="resume"><figcaption>RESUME</figcaption></a>
                     </figure>
-
-
+                    
                 </div>
                 
             </section>
