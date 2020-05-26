@@ -70,38 +70,93 @@
             <h2><br></h2>
                 <table id="internshipstbl" class="my-internships">
                     <tr id="ignisRow" class="experienceRow">
+                        
                         <td class="logoCol"><img id="ignis-logo" src = "img/ignis_logo.png"></td>
-                        <td class="jobCol">Embedded Software Engineer | Ignis Innovations</td>
+                        <td class="jobCol">Embedded Software Engineer | Ignis Innovations
+                            </td>
                         <td class="datesCol">Jan 2020 to Mar 2020</td>
+                        <td><button id="ignisBtn" class="modalButton">See Details</button></td>
+                    
                     </tr>
                     <tr id="atsRow" class="experienceRow">
                         <td class="logoCol"><img id="ats-logo" src = "img/ats_logo.jpg"></td>
                         <td class="jobCol">Systems Designer | ATS Automation</td>
                         <td class="datesCol">May 2019 to Aug 2019</td>
+                        <td><button id="atsBtn" class="modalButton">See Details</button></td>
                     </tr>
                     <tr id="daltecRow" class="experienceRow">
                         <td class="logoCol"><img id="fan-logo" src = "img/fan_logo.jpg"></td>
                         <td class="jobCol">Product Designer | Daltec Fans</td>
                         <td class="datesCol">Sep 2018 to Dec 2018</td>
+                        <td><button id="fanBtn" class="modalButton">See Details</button></td>
                     </tr>
                     <tr id="waterlooRow" class="experienceRow">
                         <td class="logoCol"><img id="waterloo-logo" src = "img/waterloo.png"></td>
                         <td class="jobCol">Junior Web Developer | University of Waterloo</td>
                         <td class="datesCol">Jan 2018 to Apr 2018</td>
+                        <td><button id="waterlooBtn" class="modalButton">See Details</button></td>
                     </tr>
                 </table>
-                <!--Clickable modal test-->
-                    <!-- Trigger/Open The Modal -->
-                <button id="ignisBtn">Open Modal</button>
+                <!--Modals--------------------------------------------------------------------------->
+
                 <!-- The Modal -->
                 <div id="ignisModal" class="modal">
-
-                <!-- Modal content -->
                     <div class="modal-content">
-                        <span class="close">&times;</span>
-                        <p>Some text in the Modal..</p>
+                        <span class="close closeIgnis">&times;</span>
+                        <h3>Embedded Software Engineering Intern | Ignis Innovations</h3>
+                        <p>Ignis Innovations is a startup founded in 2000 which does cutting edge research on OLED display technology. <br>
+                           OLED displays promise high resolutions and vivid brightness, however one of the problems with it is that the <br>
+                           diodes tend to wear out over time, making the screen have an uneven brightness distribution. A solution to this <br>
+                           problem that this company has done pioneering research in is to track the burn out in each pixel and compensate<br>
+                           for the loss by supplying the individual pixel with a higher voltage.</p>
+                           <p>As an Embedded intern, my job was to develop apply the data gathering and compensation algorithms on a <br>
+                            variety of devices to prove its feasibility. Some of the platforms I worked on include Android phones,<br>
+                            linux, Windows, xilinx UltraScale and custom display PCBs. I helped to develop a windows application that <br>
+                            displays a video and tracks OLED burn in over time. My internship cut short in late March due to the coronavirus <br>
+                            outbreak, however I was happy with my experience because I was able to work on meaningful projects while<br>
+                            learning new technologies.
+                           </p>
                     </div>
+                </div> 
+                
+                <!-- The Modal -->
+                <div id="atsModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close closeAts">&times;</span>
+                        <h3>Automation Systems Designer | ATS Automation</h3>
+                        <p>Automation Tooling Systems (ATS) is a global manufacturer of manufacturing automation. It has provides services <br>
+                            for various industries including Life Sciences, Nuclear and Energy, Automotive and more. ATS distinguishes itself<br>
+                           from its competitors by offering a patented linear inductance SuperTrak conveyor belt system allowing for faster cycle <br>
+                          times and less stations.</p>
+                        <p>As a systems design intern in the life sciences division, I helped out with several ongoing projects at various stages <br>
+                            in their design lifecycle. The systems department's role at ATS is to bridge the gap between the other departments including <br>
+                            Mechanical, Applications (technical sales) and Controls and solve the problems that require the expertise from a combination<br>
+                            of the departments. Due to the nature of the job, I was able to learn a great deal about the production of an automated line.
+                            I assisted the Applications Engineering team in creating technical proposals by referring to the previous projects to facilitate 
+                            design reuse. For projects in early stages design and development, I created process cycletime estimations by using excel 
+                            worksheets and robot-arm simulation software. One of my major tasks was to conduct a proof of principle study on an aseptic
+                             manufacturing process involving highly fragile products. For another project, I was asked to troubleshoot a manufacturing line
+                            by performing a tolerance analysis on a micron precise part. Finally, I helped out with the factory acceptance testing of a line
+                            to ensure that it met the contract requirements. </p>
+                            <p>Overall, I was learned a lot about the automation industry and several of the problems that the industry typically deals with.</p>
+                    </div>
+                </div> 
 
+
+                <div id="fanModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close closeFan">&times;</span>
+                        <h3>Product Automation Designer | Daltec Fans</h3>
+
+                    </div>
+                </div> 
+
+                <div id="waterlooModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close closeWaterloo">&times;</span>
+                        <h3>Junior Web Developer | University of Waterloo</h3>
+                        
+                    </div>
                 </div> 
 
 

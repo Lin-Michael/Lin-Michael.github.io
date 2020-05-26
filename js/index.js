@@ -41,7 +41,7 @@ function darkMode(checkbox){
     }
 
 }
-
+//MODALS--------------------------------------------------------------------------
 var ignisModal = document.getElementById("ignisModal");
 var ignisBtn = document.getElementById("ignisBtn");
 var ignisSpan = document.getElementsByClassName("closeIgnis")[0];
@@ -57,8 +57,59 @@ ignisSpan.onclick = function() {
 }
 
 // When the user clicks anywhere outside of the modal, close it
+
+
+var atsModal = document.getElementById("atsModal");
+var atsBtn = document.getElementById("atsBtn");
+var atsSpan = document.getElementsByClassName("closeAts")[0];
+
+atsBtn.onclick = function() {
+    atsModal.style.display = "block";
+}
+
+atsSpan.onclick = function() {
+    atsModal.style.display = "none";
+}
+
+
+var fanModal = document.getElementById("fanModal");
+var fanBtn = document.getElementById("fanBtn");
+var fanSpan = document.getElementsByClassName("closeFan")[0];
+
+fanBtn.onclick = function() {
+    fanModal.style.display = "block";
+}
+
+fanSpan.onclick = function() {
+    fanModal.style.display = "none";
+}
+
+
+var waterlooModal = document.getElementById("waterlooModal");
+var waterlooBtn = document.getElementById("waterlooBtn");
+var waterlooSpan = document.getElementsByClassName("closeWaterloo")[0];
+
+waterlooBtn.onclick = function() {
+    waterlooModal.style.display = "block";
+}
+
+waterlooSpan.onclick = function() {
+    waterlooModal.style.display = "none";
+}
+
 window.onclick = function(event) {
-  if (event.target == ignisModal) {
-    ignisModal.style.display = "none";
-  }
-} 
+    if (event.target == ignisModal) {
+      ignisModal.style.display = "none";
+    }
+    if (event.target == fanModal) {
+        fanModal.style.display = "none";
+      }
+      if (event.target == atsModal) {
+        atsModal.style.display = "none";
+      }
+    if (event.target == waterlooModal) {
+        waterlooModal.style.display = "none";
+      }
+  } 
+
+

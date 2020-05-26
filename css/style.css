@@ -486,8 +486,9 @@ header {
   } 
 
 .modalButton{
-    /*display: none;*/
-    width:100%;
+    background:transparent;
+   /* border: none !important;
+    width:100%;*/
     height:100%;
 }
 
