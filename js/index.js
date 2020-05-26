@@ -1,3 +1,4 @@
+
 const navToggle = document.querySelector('.nav-toggle');
 const navLinks = document.querySelectorAll('.nav__link');
 
@@ -40,3 +41,24 @@ function darkMode(checkbox){
     }
 
 }
+
+var ignisModal = document.getElementById("ignisModal");
+var ignisBtn = document.getElementById("ignisBtn");
+var ignisSpan = document.getElementsByClassName("closeIgnis")[0];
+
+// When the user clicks on the button, open the modal
+ignisBtn.onclick = function() {
+    ignisModal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+ignisSpan.onclick = function() {
+    ignisModal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == ignisModal) {
+    ignisModal.style.display = "none";
+  }
+} 
