@@ -30,6 +30,17 @@ function darkMode(checkbox){
         var y = document.getElementsByClassName("resume");
         y[0].style.color = light;
         y[1].style.color = light;
+        var z = document.getElementsByClassName("modal-content");
+        z[0].style.background = dark;
+        z[1].style.background = dark;
+        z[2].style.background = dark;
+        z[3].style.background = dark;
+        var a = document.getElementsByClassName("modalButton");
+        a[0].style.color = light;
+        a[1].style.color = light;
+        a[2].style.color = light;
+        a[3].style.color = light;
+
     }
     else{
         var x = document.getElementsByTagName("BODY")[0];
@@ -38,6 +49,16 @@ function darkMode(checkbox){
         var y = document.getElementsByClassName("resume");
         y[0].style.color = dark;
         y[1].style.color = dark;
+        var z = document.getElementsByClassName("modal-content");
+        z[0].style.background = light;
+        z[1].style.background = light;
+        z[2].style.background = light;
+        z[3].style.background = light;
+        var a = document.getElementsByClassName("modalButton");
+        a[0].style.color = dark;
+        a[1].style.color = dark;
+        a[2].style.color = dark;
+        a[3].style.color = dark;
     }
 
 }
