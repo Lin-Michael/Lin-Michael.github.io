@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import portrait from "../img/headshot_small.jpg";
 import "../style.css";
 import Scrollspy from "react-scrollspy";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class NavBar extends Component {
   state = {};
@@ -21,24 +22,16 @@ class NavBar extends Component {
         <h5 className="text-white title-description">
           University of Waterloo 2022
         </h5>
+
         <Scrollspy
           items={["home", "work-experience", "projects", "music"]}
           currentClassName="is-current"
         >
-
             <a className="nav-link" href="#home">Home</a>
-
-
             <a className="nav-link" href="#work-experience">Work Experience</a>
-
-
             <a className="nav-link" href="#projects">Projects</a>
-
-
             <a className="nav-link" href="#music">Music</a>
-
         </Scrollspy>
-
 
 
 

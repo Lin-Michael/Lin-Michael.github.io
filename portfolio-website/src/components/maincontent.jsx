@@ -4,12 +4,14 @@ import WorkExperience from './workexperience.jsx'
 import Projects from './projects.jsx'
 import Music from './music.jsx'
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 class MainContent extends Component {
     state = {  }
     render() { 
         return ( 
-            <div data-spy="scroll" data-target="navbar" data-offset="0" className="content">
+            <div className="content">
             <Home />
             <WorkExperience/>
             <Projects/>

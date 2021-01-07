@@ -40,8 +40,15 @@ body{
 
 }
 
+.nav-item-container{
+  height:40px;
+}
+
 .nav-item-text{
     font-size: 20px;
+    vertical-align: middle;
+    margin-top:10px;
+    margin-bottom: 10px;
 }
 
 .dark-color{
@@ -91,7 +98,6 @@ body{
   /* Sidebar links */
   .sidebar a {
     display: block;
-    width: 100%;
     color: white;
     padding: 16px;
     text-decoration: none;
@@ -99,7 +105,7 @@ body{
   
   /* Active/current link */
   .sidebar a.active {
-    background-color: #33cc33;
+    background-color: #33cc33 !important;
     color: white;
   }
 
@@ -122,6 +128,7 @@ body{
   
   /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
   div.content {
+    position: relative;
     margin-left: 500px;
     padding: 1px 16px;
     height: 1000px;
@@ -132,7 +139,10 @@ body{
     .sidebar {
       width: 100%;
       height: auto;
-      position: relative;
+      /* position: relative; */
+      z-index: 1000;
+      position: fixed;
+      top: 0;
     }
     .sidebar a {float: left;}
     div.content {margin-left: 0;}
@@ -153,10 +163,6 @@ body{
   @media screen and (max-width: 750px) {
     .sidebar a {
       text-align: center;
-      float: none;
-    }
-    .title-name{
-        text-align: center;
-        float:none;
+      font-size: 10px;
     }
   }
