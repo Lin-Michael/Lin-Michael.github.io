@@ -10,7 +10,7 @@ class MainContent extends Component {
     render() { 
         return ( 
             <div data-spy="scroll" data-target="navbar" data-offset="0" className="content">
-                <Home />
+            <Home />
             <WorkExperience/>
             <Projects/>
             <Music/>

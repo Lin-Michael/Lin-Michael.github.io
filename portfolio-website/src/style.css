@@ -1,3 +1,7 @@
+body{
+    position: relative;
+}
+
 .portrait-img{
     border-radius: 50%;
     width:300px;
@@ -50,7 +54,6 @@
 .job-header{
     width:700px;
 }
-
 .company-logo{
     width:100px;
     height:100px;
@@ -88,6 +91,7 @@
   /* Sidebar links */
   .sidebar a {
     display: block;
+    width: 100%;
     color: white;
     padding: 16px;
     text-decoration: none;
@@ -98,6 +102,17 @@
     background-color: #33cc33;
     color: white;
   }
+
+  .is-current{
+    background-color: #33cc33;
+    color: white;
+  }
+
+  .hide-li{
+    list-style-type: none;
+    width:100%;
+  }
+
   
   /* Links on mouse-over */
   .sidebar a:hover:not(.active) {
