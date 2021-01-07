@@ -30,6 +30,10 @@ body{
     white-space: nowrap;
 }
 
+.job-description{
+  float:left;
+  text-align: left;
+}
 
 .side-nav{
     position:absolute;
