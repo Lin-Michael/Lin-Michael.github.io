@@ -4,6 +4,28 @@
     height:300px;
     border: 3px black; 
 }
+.table-job{
+    width:100%;
+}
+
+.logo-col {
+	width: 20%;
+}
+
+.job-col{
+    width:50%;
+    text-align:left;
+}
+
+.duration-col{
+    width:30%;
+    text-align:right;
+}
+
+.text-job-name{
+    white-space: nowrap;
+}
+
 
 .side-nav{
     position:absolute;
@@ -14,8 +36,42 @@
 
 }
 
+.nav-item-text{
+    font-size: 20px;
+}
+
 .dark-color{
     background-color: #292b2c;
+}
+
+.title-description{
+    font-weight:normal;
+}
+.job-header{
+    width:700px;
+}
+
+.company-logo{
+    width:100px;
+    height:100px;
+    float:left;
+}
+
+.home-msg{
+    font-size:40px;
+    font-weight: bold;
+    text-align: center;
+    margin:auto;
+}
+
+.center-both-ways{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section{
+    height:100%;
 }
 
 /* The side navigation menu */
@@ -65,12 +121,27 @@
     }
     .sidebar a {float: left;}
     div.content {margin-left: 0;}
+      /* Hides portrait photo on small screens*/
+    .portrait-img{
+        display:none;
+    }
+    .title-name{
+        float:left;
+        margin:20px;
+    }
+    .title-description{
+        display:none;
+    }
   }
-  
-  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-  @media screen and (max-width: 400px) {
+
+    /* On screens that are less than 750px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 750px) {
     .sidebar a {
       text-align: center;
       float: none;
+    }
+    .title-name{
+        text-align: center;
+        float:none;
     }
   }

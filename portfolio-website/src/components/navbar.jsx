@@ -7,10 +7,42 @@ class NavBar extends Component {
   render() {
     return (
         <div class="sidebar">
-  <a class="active" href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
+                    <img
+          src={portrait}
+          className="portrait-img m-4"
+          alt="Portrait shot"
+        ></img>
+
+        <h1 className="text-white title-name">Michael Lin</h1>
+        <h5 className="text-white title-description">3B Mechatronics Engineering</h5>
+        <h5 className="text-white title-description">University of Waterloo 2022</h5>
+
+        <nav id="navbar">
+        <a className="nav-link" href="#home">
+                <p className="text-white nav-item-text text-center">
+                Home
+                </p>
+              
+            </a>
+            <a className="nav-link" href="#work-experience">
+                <p className="text-white nav-item-text text-center">
+                Work Experience
+                </p>
+              
+            </a>
+            <a className="nav-link" href="#item-3">
+            <p className="text-white nav-item-text text-center">
+                Projects
+                </p>
+            </a>
+            <a className="nav-link" href="#item-3">
+            <p className="text-white nav-item-text text-center">
+                Music
+                </p>
+            </a>
+        </nav>
+     
+
 </div>
 
 
@@ -18,34 +50,6 @@ class NavBar extends Component {
   }
 }
 
-        // <img
-        //   src={portrait}
-        //   className="portrait-img m-4"
-        //   alt="Portrait shot"
-        // ></img>
-        // <h1 className="text-white">Michael Lin</h1>
-        // <h5 className="text-white">3B Mechatronics Engineering</h5>
-        // <h5 className="text-white">University of Waterloo</h5>
 
-        
-        //   <nav class="nav nav-pills flex-column justfiy-content-center">
-        //     <a class="nav-link" href="#item-1">
-        //         <h2 className="text-white text-center">
-        //         About
-        //         </h2>
-              
-        //     </a>
-        //     <a class="nav-link" href="#item-2">
-        //         <h2 className="text-white text-center">
-        //         Work Experience
-        //         </h2>
-              
-        //     </a>
-        //     <a class="nav-link" href="#item-3">
-        //     <h2 className="text-white text-center">
-        //         Projects
-        //         </h2>
-        //     </a>
-        //   </nav>
 
 export default NavBar;
