@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dc2e94c0.chunk.css",
+    "main.js": "/static/js/main.ffd5c367.chunk.js",
+    "main.js.map": "/static/js/main.ffd5c367.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.dcdec259.js",
+    "runtime-main.js.map": "/static/js/runtime-main.dcdec259.js.map",
+    "static/css/2.ae9f1eb3.chunk.css": "/static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.4a4de297.chunk.js": "/static/js/2.4a4de297.chunk.js",
+    "static/js/2.4a4de297.chunk.js.map": "/static/js/2.4a4de297.chunk.js.map",
+    "static/js/3.324aa6e9.chunk.js": "/static/js/3.324aa6e9.chunk.js",
+    "static/js/3.324aa6e9.chunk.js.map": "/static/js/3.324aa6e9.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ae9f1eb3.chunk.css.map": "/static/css/2.ae9f1eb3.chunk.css.map",
+    "static/css/main.dc2e94c0.chunk.css.map": "/static/css/main.dc2e94c0.chunk.css.map",
+    "static/js/2.4a4de297.chunk.js.LICENSE.txt": "/static/js/2.4a4de297.chunk.js.LICENSE.txt",
+    "static/media/arm.3cf8cb71.png": "/static/media/arm.3cf8cb71.png",
+    "static/media/ats_logo.32e81695.jpg": "/static/media/ats_logo.32e81695.jpg",
+    "static/media/fan_logo.01470b40.jpg": "/static/media/fan_logo.01470b40.jpg",
+    "static/media/headshot_small.01b53bb1.jpg": "/static/media/headshot_small.01b53bb1.jpg",
+    "static/media/shopping_list.06806b5d.PNG": "/static/media/shopping_list.06806b5d.PNG",
+    "static/media/toronto_logo.41b4b7f0.png": "/static/media/toronto_logo.41b4b7f0.png",
+    "static/media/waterloo.4c8baa43.png": "/static/media/waterloo.4c8baa43.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dcdec259.js",
+    "static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.4a4de297.chunk.js",
+    "static/css/main.dc2e94c0.chunk.css",
+    "static/js/main.ffd5c367.chunk.js"
+  ]
+}
