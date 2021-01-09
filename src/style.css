@@ -22,8 +22,13 @@ body{
 }
 
 .duration-col{
-    width:30%;
+    float:right;
+    white-space: nowrap;
     text-align:right;
+}
+
+.duration-text{
+  margin-top:40px !important;
 }
 
 .text-job-name{
@@ -33,6 +38,13 @@ body{
 .job-description{
   float:left;
   text-align: left;
+}
+.work-height{
+  min-height:1100px;
+}
+
+.work-section{
+  width:900px;
 }
 
 .img-project{
@@ -69,7 +81,7 @@ body{
     font-weight:normal;
 }
 .job-header{
-    width:700px;
+    width:100%;
 }
 .company-logo{
     width:100px;
@@ -105,7 +117,7 @@ body{
     overflow: auto;
   }
   
-ul{
+.nav-scroll ul{
   padding:0;
   list-style-type:none;
 }
@@ -116,7 +128,6 @@ ul{
     color: white;
     padding: 16px;
     text-decoration: none;
-    width:500px !important;
   }
   
   /* Active/current link */
@@ -134,7 +145,9 @@ ul{
     list-style-type: none;
     width:100%;
   }
-
+  .hover-header:hover{
+    background-color: rgb(161, 158, 158);
+  }
   
   /* Links on mouse-over */
   .sidebar a:hover:not(.active) {
@@ -159,7 +172,9 @@ ul{
       position: fixed;
       top: 0;
     }
-    .sidebar a {float: left;}
+    .sidebar a {float: left;
+    display:inline;
+    }
     div.content {margin-left: 0;}
       /* Hides portrait photo on small screens*/
     .portrait-img{
@@ -179,5 +194,8 @@ ul{
     .sidebar a {
       text-align: center;
       font-size: 10px;
+    }
+    .work-section{
+      width:100%;
     }
   }

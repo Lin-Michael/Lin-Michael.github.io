@@ -10,7 +10,7 @@ class Music extends Component {
         <p>
           One of my hobbies is playing the piano. Here's a taste of my music!
         </p>
-        <div className="d-flex">
+        <div className="d-flex justify-content-center">
           <Card className="music-card">
             <Card.Body>
               <Card.Title>For the First Time in Forever</Card.Title>

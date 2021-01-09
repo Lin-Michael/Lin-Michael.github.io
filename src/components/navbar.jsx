@@ -22,6 +22,7 @@ class NavBar extends Component {
         <h5 className="text-white title-description">
           University of Waterloo 2022
         </h5>
+        <div className="nav-scroll">
         <Scrollspy
           items={["home", "work-experience", "projects", "music"]}
           currentClassName="is-current"
@@ -32,6 +33,8 @@ class NavBar extends Component {
           <a href="#music">Music</a>
             
         </Scrollspy>
+        </div>
+
 
 </div>
 

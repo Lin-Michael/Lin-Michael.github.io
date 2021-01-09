@@ -20,7 +20,7 @@ class JobHeader extends Component {
               <p className="m-2">{this.props.company}</p>
             </td>
             <td className="duration-col">
-              <p className="d-inline text-center">{this.props.duration}</p>
+              <p className="duration-text">{this.props.duration}</p>
             </td>
           </tr>
         </table>
