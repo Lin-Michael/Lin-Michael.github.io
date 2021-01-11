@@ -51,10 +51,15 @@ body{
   height:200px;
 }
 
+.project-container{
+  flex-wrap:wrap !important;
+}
+
 .project-card{
   display:flex;
-  width: 300px;
-  height:400px;
+  width: 400px !important;
+  margin:10px;
+  text-align: left;
   
 }
 .music-card{
@@ -107,6 +112,8 @@ body{
 .section{
     height:1000px;
 }
+
+
 
 /* The side navigation menu */
 .sidebar {
