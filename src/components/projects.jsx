@@ -89,7 +89,8 @@ class Projects extends Component {
             title="Obstacle Course Robot"
             lang="C"
             shortDescription="A robot with custom signal processing circuits for encoders and magnetic sensors designed to navigate a track"
-          />
+            link="https://devpost.com/software/obstacle-course-robot-zrg1y4"
+         />
 
           <Project
             pictureSource={Arm}
