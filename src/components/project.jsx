@@ -19,7 +19,8 @@ class Project extends Component {
                 {this.props.insertLine =="true" && <br></br>} 
                 <p className="font-weight-bold">Description:</p>
                 {this.props.shortDescription}
-                {this.props.longDescription}
+                {/* {this.props.longDescription} */}
+                
               </Card.Text>
               <Button
                 variant="primary"
