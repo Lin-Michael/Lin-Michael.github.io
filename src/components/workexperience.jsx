@@ -9,7 +9,7 @@ import ATSLogo from "../img/ats_logo.jpg";
 import fanLogo from "../img/fan_logo.jpg";
 import waterlooLogo from "../img/waterloo.png";
 import torontoLogo from "../img/toronto_logo.png";
-
+import bofamlLogo from "../img/bofaml.png"
 class WorkExperience extends Component {
   state = {};
   render() {
@@ -19,11 +19,38 @@ class WorkExperience extends Component {
           <div className="work-section">
             <h1 >Work Experience</h1>
             <Accordion>
-              <Card>
+
+            <Card>
                 <Accordion.Toggle
                   as={Card.Header}
                   className="hover-header"
                   eventKey="0"
+                >
+                  <JobHeader
+                    picture={bofamlLogo}
+                    jobName="Software Engineer"
+                    company="Bank of America Merrill Lynch"
+                    duration="May 2021 to Present"
+                  />
+                </Accordion.Toggle>
+                <Accordion.Collapse eventKey="0">
+                  <Card.Body>
+                    <div className="job-description">
+                      <ul>
+                        <li>
+                        Performing front end dev on an agile team to build a client metrics app
+                        </li>
+                      </ul>
+                    </div>
+                  </Card.Body>
+                </Accordion.Collapse>
+              </Card>
+
+              <Card>
+                <Accordion.Toggle
+                  as={Card.Header}
+                  className="hover-header"
+                  eventKey="10"
                 >
                   <JobHeader
                     picture={BMOLogo}
@@ -32,7 +59,7 @@ class WorkExperience extends Component {
                     duration="Sept 2020 to Dec 2020"
                   />
                 </Accordion.Toggle>
-                <Accordion.Collapse eventKey="0">
+                <Accordion.Collapse eventKey="10">
                   <Card.Body>
                     <div className="job-description">
                       <ul>
@@ -68,7 +95,7 @@ class WorkExperience extends Component {
                 <Accordion.Toggle
                   as={Card.Header}
                   className="hover-header"
-                  eventKey="1"
+                  eventKey="20"
                 >
                   <JobHeader
                     picture={IgnisLogo}
@@ -77,7 +104,7 @@ class WorkExperience extends Component {
                     duration="Jan 2020 to Mar 2020"
                   />
                 </Accordion.Toggle>
-                <Accordion.Collapse eventKey="1">
+                <Accordion.Collapse eventKey="20">
                   <Card.Body>
                     <div className="job-description">
                       <p>
@@ -114,7 +141,7 @@ class WorkExperience extends Component {
                 <Accordion.Toggle
                   as={Card.Header}
                   className="hover-header"
-                  eventKey="2"
+                  eventKey="30"
                 >
                   <JobHeader
                     picture={ATSLogo}
@@ -123,7 +150,7 @@ class WorkExperience extends Component {
                     duration="May 2019 to Aug 2019"
                   />
                 </Accordion.Toggle>
-                <Accordion.Collapse eventKey="2">
+                <Accordion.Collapse eventKey="30">
                   <Card.Body>
                     <div className="job-description">
                       <p>
@@ -174,7 +201,7 @@ class WorkExperience extends Component {
                 <Accordion.Toggle
                   as={Card.Header}
                   className="hover-header"
-                  eventKey="3"
+                  eventKey="40"
                 >
                   <JobHeader
                     picture={fanLogo}
@@ -183,7 +210,7 @@ class WorkExperience extends Component {
                     duration="Sep 2018 to Dec 2018"
                   />
                 </Accordion.Toggle>
-                <Accordion.Collapse eventKey="3">
+                <Accordion.Collapse eventKey="40">
                   <Card.Body>
                     <div className="job-description">
                       <ul>
@@ -211,7 +238,7 @@ class WorkExperience extends Component {
                 <Accordion.Toggle
                   as={Card.Header}
                   className="hover-header"
-                  eventKey="4"
+                  eventKey="50"
                 >
                   <JobHeader
                     picture={waterlooLogo}
@@ -220,7 +247,7 @@ class WorkExperience extends Component {
                     duration="Jan 2018 to Apr 2018"
                   />
                 </Accordion.Toggle>
-                <Accordion.Collapse eventKey="4">
+                <Accordion.Collapse eventKey="50">
                   <Card.Body>
                     <div className="job-description">
                       <ul>
@@ -246,7 +273,7 @@ class WorkExperience extends Component {
                 <Accordion.Toggle
                   as={Card.Header}
                   className="hover-header"
-                  eventKey="5"
+                  eventKey="60"
                 >
                   <JobHeader
                     picture={torontoLogo}
@@ -255,7 +282,7 @@ class WorkExperience extends Component {
                     duration="Jul 2017 to Aug 2017"
                   />
                 </Accordion.Toggle>
-                <Accordion.Collapse eventKey="5">
+                <Accordion.Collapse eventKey="60">
                   <Card.Body>
                     <div className="job-description">
                       <ul>

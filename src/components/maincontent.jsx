@@ -12,7 +12,6 @@ class MainContent extends Component {
     render() { 
         return ( 
             <div className="content">
-            <Home />
             <WorkExperience/>
             <Projects/>
             <Music/>
